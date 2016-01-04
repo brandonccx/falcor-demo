@@ -1,0 +1,24 @@
+{
+  "name": "falcor-demo",
+  "version": "1.0.0",
+  "description": "Test for falcor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && supervisor -w .. index.js"
+  },
+  "author": "ccxjaychen@163.com <Brandon>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.3",
+    "falcor": "^0.1.15",
+    "falcor-express": "^0.1.2",
+    "falcor-router": "^0.2.12",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "supervisor": "^0.9.1"
+  }
+}

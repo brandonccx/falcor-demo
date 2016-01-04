@@ -7,6 +7,8 @@ model.getValue('token').then(function (res) {
 });
 
 $.post('/auth', function () {
+  // Uncomment under line for removing the cache
+  // model.invalidate('token');
   model.getValue('token').then(function (res) {
     console.log('get token = %s after post /auth', res);
   });
